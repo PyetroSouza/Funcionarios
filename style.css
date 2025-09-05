@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 250;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(139, 92, 234);
+    padding: 20px 60px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    position: relative;
+
+}
+.fotosFuncionarios{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 350px 10px 10px 10px;
+    align-items: center;
+}
+
+.legenda{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: rgb(139, 92, 234);
+    padding: 10px;
+}
+
+.fotos:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.card{
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 20px 30px 25px 30px;
+    object-fit: cover;
+    box-shadow: 3px 3px 12px rgb(139, 92, 234);
+    border-radius: 15px;
+    text-decoration: none;
+}
